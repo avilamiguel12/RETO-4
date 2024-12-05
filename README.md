@@ -1,6 +1,7 @@
 # RETO-4
 
 EJERCICIO #1
+
 a = int(input("Ingrese un entero: "))
 if a == 97:
   print("El numero ",a, "corresponde a la vocal a en el codigo ASCII")
@@ -16,7 +17,9 @@ else:
   print("El numero", a, "no corresponde a ninguna vocal minuscula en el codigo ASCII")
 
 
+
 EJERCICIO #2
+
 a = str(input("Ingrese una cadena de longitud 1: "))
 if ord(a) % 2 == 0:
   print("El primer numero del codigo ASCII del caracter", a , "es par")
@@ -24,14 +27,19 @@ else:
   print("El primer numero del codigo ASCII del caracter", a , "es impar")
 
 
+
 EJERCICIO #3
+
 a = input("Ingrese un carácter: ")
 if a>='0' and a<='9':
     print("El número ", a," es un dígito")
 else:
     print("El número ", a," no es un dígito")
 
+
+
 EJERCICIO #4
+
 a = float(input("Ingrese el primer numero: "))
 b = float(input("Ingrese el segundo numero: "))
 
@@ -41,7 +49,9 @@ else:
   print(a, "no es multiplo de ", b)
 
 
+
 EJERCICIO #5
+
 a=float(input("ingrese un numero: "))
 
 if a>0:
@@ -52,7 +62,9 @@ else:
     print("el numero", a," es negativo")
 
 
+
 EJERCICO #6
+
 x = float(input("Ingrese la coordenada x del punto: "))
 y = float(input("Ingrese la coordenada y del punto: "))
 h = float(input("Ingrese la coordenada x del centro del círculo: "))
@@ -64,7 +76,10 @@ else:
     print("El punto (",x,",",y,") NO está dentro del círculo.")
 
 
+
+
 EJERCICIO #7
+
 a=float(input("Ingrese el valor de la primera longitud:"))
 b=float(input("Ingrese el valor de la primera longitud:"))
 c=float(input("Ingrese el valor de la primera longitud:"))
@@ -75,7 +90,10 @@ else:
     print("NO se puede construir un triangulo con las longitudes", a,",", b,",", c)
 
 
+
+
 EJERCICIO #8
+
 a = input("Ingrese el nombre de un país de América en minúsculas: ")
 
 match a:
