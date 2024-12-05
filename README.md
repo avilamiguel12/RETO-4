@@ -2,18 +2,30 @@
 
 EJERCICIO #1
 
-a = int(input("Ingrese un entero: "))
+a = int(input("Ingrese un entero: "))}
+
 if a == 97:
+
   print("El numero ",a, "corresponde a la vocal a en el codigo ASCII")
+  
 elif a == 101:
+
   print("El numero ",a, "corresponde a la vocal e en el codigo ASCII")
+  
 elif a ==105:
+
   print("El numero ",a, "corresponde a la vocal i en el codigo ASCII")
+  
 elif a ==111:
+
   print("El numero ",a, "corresponde a la vocal o en el codigo ASCII")
+
 elif a ==117:
+
   print("El numero ",a, "corresponde a la vocal u en el codigo ASCII")
+  
 else:
+
   print("El numero", a, "no corresponde a ninguna vocal minuscula en el codigo ASCII")
 
 
@@ -21,9 +33,13 @@ else:
 EJERCICIO #2
 
 a = str(input("Ingrese una cadena de longitud 1: "))
+
 if ord(a) % 2 == 0:
+
   print("El primer numero del codigo ASCII del caracter", a , "es par")
+  
 else:
+
   print("El primer numero del codigo ASCII del caracter", a , "es impar")
 
 
@@ -31,9 +47,13 @@ else:
 EJERCICIO #3
 
 a = input("Ingrese un carácter: ")
+
 if a>='0' and a<='9':
+
     print("El número ", a," es un dígito")
+    
 else:
+
     print("El número ", a," no es un dígito")
 
 
@@ -41,11 +61,15 @@ else:
 EJERCICIO #4
 
 a = float(input("Ingrese el primer numero: "))
+
 b = float(input("Ingrese el segundo numero: "))
 
 if a % b == 0:
+
   print(a, "es multiplo de ", b)
+  
 else:
+
   print(a, "no es multiplo de ", b)
 
 
@@ -55,10 +79,13 @@ EJERCICIO #5
 a=float(input("ingrese un numero: "))
 
 if a>0:
+
     print("el numero", a," es positivo")
 elif a==0:
+
     print("el numero", a," es neutro para la suma")
 else:
+
     print("el numero", a," es negativo")
 
 
@@ -66,7 +93,9 @@ else:
 EJERCICO #6
 
 x = float(input("Ingrese la coordenada x del punto: "))
+
 y = float(input("Ingrese la coordenada y del punto: "))
+
 h = float(input("Ingrese la coordenada x del centro del círculo: "))
 k = float(input("Ingrese la coordenada y del centro del círculo: "))
 r = float(input("Ingrese el radio del círculo: "))
