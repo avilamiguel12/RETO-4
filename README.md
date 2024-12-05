@@ -135,4 +135,3 @@ match a:
 
   case _:
     print("País no identificado")
-
