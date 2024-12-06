@@ -30,6 +30,9 @@ EJERCICIO #8
 
 ![image](https://github.com/user-attachments/assets/4a8d05e7-10d3-4da5-ae18-6f1947ff0498)
 
+![image](https://github.com/user-attachments/assets/6c7b17d1-5190-48e2-96a3-3eca5ad062e9)
+
+
 
 
 
